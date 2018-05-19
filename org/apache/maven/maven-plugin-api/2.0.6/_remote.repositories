@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 17 20:56:00 CST 2018
+maven-plugin-api-2.0.6.jar>thirdparty=
+maven-plugin-api-2.0.6.jar>central=
+maven-plugin-api-2.0.6.pom>central=
+maven-plugin-api-2.0.6.pom>thirdparty=

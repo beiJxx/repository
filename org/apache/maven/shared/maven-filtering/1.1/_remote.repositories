@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Apr 18 21:55:30 CST 2018
+maven-filtering-1.1.jar>thirdparty=
+maven-filtering-1.1.jar>central=
+maven-filtering-1.1.pom>thirdparty=
+maven-filtering-1.1.pom>central=

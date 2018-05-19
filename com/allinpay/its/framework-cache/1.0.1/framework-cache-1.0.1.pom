@@ -1,0 +1,35 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<parent>
+		<groupId>com.allinpay.its</groupId>
+		<artifactId>its-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<artifactId>framework-cache</artifactId>
+	<version>1.0.1</version>
+	<description>负责数据缓存的处理，暂时不支持缓存的HA，来至memcached client for java（https://github.com/gwhalin/Memcached-Java-Client/wiki）</description>
+	<name>缓存框架</name>
+	<dependencies>
+		<dependency>
+			<groupId>com.allinpay.its</groupId>
+			<artifactId>its-util</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-beans</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>com.whalin</groupId>
+			<artifactId>Memcached-Java-Client</artifactId>
+			<version>3.0.1</version>
+		</dependency>
+	</dependencies>
+	<scm>
+		<developerConnection>scm:svn:http://10.0.60.9/svn/ITS/framework-cache/framework-cache/tags/framework-cache-1.0.1</developerConnection>
+	</scm>
+</project>

@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri May 18 20:55:30 CST 2018
+ant-1.8.2.jar>central=
+ant-1.8.2.pom>central=
+ant-1.8.2.jar>thirdparty=
+ant-1.8.2.pom>thirdparty=

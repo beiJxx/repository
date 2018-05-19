@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:44:16 CST 2018
+http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.springframework\:spring-oxm\:pom\:4.3.13 from/to thirdparty (http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/)\: Connect to 192.168.1.102\:8081 [/192.168.1.102] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1521117856642
+@default-thirdparty-http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.lastUpdated=1521116833985
+https\://repo.maven.apache.org/maven2/.error=

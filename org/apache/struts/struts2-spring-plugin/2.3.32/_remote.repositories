@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:43:05 CST 2018
+struts2-spring-plugin-2.3.32.jar>thirdparty=
+struts2-spring-plugin-2.3.32.pom>central=
+struts2-spring-plugin-2.3.32.pom>thirdparty=

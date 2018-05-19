@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Apr 22 21:07:17 CST 2018
+http\://oss.sonatype.org/content/groups/jetty/.lastUpdated=1524402437828
+http\://oss.sonatype.org/content/groups/jetty/.error=
+@default-central-https\://repo.maven.apache.org/maven2/.lastUpdated=1524402148308
+https\://oss.sonatype.org/content/groups/jetty/.lastUpdated=1524402149482
+https\://oss.sonatype.org/content/groups/jetty/.error=
+https\://repo.maven.apache.org/maven2/.error=Could not transfer artifact org.sonatype.sisu\:sisu-guice\:jar\:no_aop\:2.9.4 from/to central (https\://repo.maven.apache.org/maven2)\: GET request of\: org/sonatype/sisu/sisu-guice/2.9.4/sisu-guice-2.9.4-no_aop.jar from central failed

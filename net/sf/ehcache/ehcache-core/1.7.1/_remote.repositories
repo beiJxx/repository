@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:44:31 CST 2018
+ehcache-core-1.7.1.jar>thirdparty=
+ehcache-core-1.7.1.pom>central=
+ehcache-core-1.7.1.pom>thirdparty=

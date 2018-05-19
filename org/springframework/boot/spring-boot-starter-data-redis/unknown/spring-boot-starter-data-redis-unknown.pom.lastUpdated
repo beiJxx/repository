@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Feb 06 19:34:01 CST 2018
+http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.springframework.boot\:spring-boot-starter-data-redis\:pom\:unknown from/to thirdparty (http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/)\: Connect to 192.168.1.102\:8081 [/192.168.1.102] failed\: Connection timed out\: connect
+@default-thirdparty-http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.lastUpdated=1517916841536

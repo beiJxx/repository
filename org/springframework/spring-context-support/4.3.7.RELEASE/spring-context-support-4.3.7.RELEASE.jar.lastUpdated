@@ -1,0 +1,4 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri May 18 21:07:19 CST 2018
+@default-nexus-osc-http\://maven.oschina.net/content/groups/public/.lastUpdated=1526648839915
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.springframework\:spring-context-support\:jar\:4.3.7.RELEASE from/to nexus-osc (http\://maven.oschina.net/content/groups/public/)\: maven.oschina.net

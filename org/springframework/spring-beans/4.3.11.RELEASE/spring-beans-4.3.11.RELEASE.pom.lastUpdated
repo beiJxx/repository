@@ -1,0 +1,7 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Fri May 18 21:07:18 CST 2018
+http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.springframework\:spring-beans\:pom\:4.3.11.RELEASE from/to thirdparty (http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/)\: Connect to 192.168.1.102\:8081 [/192.168.1.102] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1523969434044
+@default-nexus-osc-http\://maven.oschina.net/content/groups/public/.lastUpdated=1526648838615
+@default-thirdparty-http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.lastUpdated=1517916693407
+http\://maven.oschina.net/content/groups/public/.error=Could not transfer artifact org.springframework\:spring-beans\:pom\:4.3.11.RELEASE from/to nexus-osc (http\://maven.oschina.net/content/groups/public/)\: maven.oschina.net

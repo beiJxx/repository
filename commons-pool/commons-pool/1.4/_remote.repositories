@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:42:49 CST 2018
+commons-pool-1.4.jar>thirdparty=
+commons-pool-1.4.pom>thirdparty=
+commons-pool-1.4.pom>central=

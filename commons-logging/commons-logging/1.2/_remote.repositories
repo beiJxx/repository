@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 17 20:50:46 CST 2018
+commons-logging-1.2.jar>thirdparty=
+commons-logging-1.2.pom>thirdparty=
+commons-logging-1.2.jar>central=
+commons-logging-1.2.pom>central=

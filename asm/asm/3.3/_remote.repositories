@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Thu Mar 15 20:43:00 CST 2018
+asm-3.3.jar>thirdparty=
+asm-3.3.pom>thirdparty=
+asm-3.3.pom>central=

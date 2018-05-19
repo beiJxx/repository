@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.koolyun</groupId>
+        <artifactId>ky-parent</artifactId>
+        <version>1.0.1</version>
+    </parent>
+    <groupId>com.koolyun</groupId>
+    <artifactId>ky-fw-j8583</artifactId>
+    <version>1.0.1</version>
+    <name>ky-fw-j8583</name>
+    <description>ky-fw-j8583</description>
+    <dependencies>
+        <dependency>
+            <groupId>com.koolyun</groupId>
+            <artifactId>ky-fw-security</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+    </dependencies>
+</project>

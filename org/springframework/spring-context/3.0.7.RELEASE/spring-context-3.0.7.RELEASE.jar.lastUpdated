@@ -1,0 +1,5 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Tue Apr 17 20:51:08 CST 2018
+http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.error=Could not transfer artifact org.springframework\:spring-context\:jar\:3.0.7.RELEASE from/to thirdparty (http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/)\: Connect to 192.168.1.102\:8081 [/192.168.1.102] failed\: Connection timed out\: connect
+https\://repo.maven.apache.org/maven2/.lastUpdated=1523969468789
+@default-thirdparty-http\://192.168.1.102\:8081/nexus/content/repositories/thirdparty/.lastUpdated=1517916778468

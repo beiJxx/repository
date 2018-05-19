@@ -1,0 +1,26 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>com.koolyun</groupId>
+        <artifactId>ky-parent</artifactId>
+        <version>1.0.1</version>
+    </parent>
+    <groupId>com.koolyun</groupId>
+    <artifactId>ky-fw-jms</artifactId>
+    <version>1.0.1</version>
+    <name>ky-fw-jms</name>
+    <description>ky-fw-jms</description>
+    <dependencies>
+        <!-- jms Begin -->
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jms</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.activemq</groupId>
+            <artifactId>activemq-core</artifactId>
+        </dependency>
+        <!-- jms End -->
+    </dependencies>
+</project>

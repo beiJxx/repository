@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Sun Apr 22 21:02:28 CST 2018
+plexus-classworlds-2.4.jar>thirdparty=
+plexus-classworlds-2.4.pom>central=
+plexus-classworlds-2.4.pom>thirdparty=
+plexus-classworlds-2.4.jar>central=

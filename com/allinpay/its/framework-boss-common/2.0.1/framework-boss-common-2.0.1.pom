@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<artifactId>framework-boss-common</artifactId>
+	<packaging>pom</packaging>
+	<version>2.0.1</version>
+	<parent>
+		<groupId>com.allinpay.its</groupId>
+		<artifactId>its-parent</artifactId>
+		<version>1.0.0</version>
+	</parent>
+	<modules>
+		<module>framework-boss-common-core</module>
+		<module>framework-boss-common-web</module>
+	</modules>
+
+	<properties>
+		<ognl.version>3.0.6</ognl.version>
+		<google-collections.version>1.0</google-collections.version>
+		<jstl.version>1.2</jstl.version>
+		<spring-binding.version>1.0.6</spring-binding.version>
+		<freemarker.version>2.3.19</freemarker.version>
+		<commons-logging.version>1.1.1</commons-logging.version>
+		<commons-fileupload.version>1.2.2</commons-fileupload.version>
+		<commons-io.version>2.4</commons-io.version>
+		<commons-validator.version>1.4.0</commons-validator.version>
+		<commons-digester.version>2.1</commons-digester.version>
+		<commons-dbcp.version>1.4</commons-dbcp.version>
+		<commons-collections.version>2.0</commons-collections.version>
+		<codehaus.jackson.version>1.9.11</codehaus.jackson.version>
+		<xstream.version>1.4.3</xstream.version>
+		<log4jdbc4.version>1.2.1</log4jdbc4.version>
+	</properties>
+
+	<!-- 可以使用的依赖池 -->
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+	<!-- 依赖池结束 -->
+
+	<dependencies>
+		<!-- begin spring jar -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-web</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-jdbc</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-aspects</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-orm</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-test</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-oxm</artifactId>
+		</dependency>
+		<!-- <dependency> <groupId>org.springframework</groupId> <artifactId>spring-binding</artifactId> 
+			<version>${spring-binding.version}</version> </dependency> -->
+		<!-- end spring jar -->
+		<!-- begin web container provided -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>javax.servlet.jsp</groupId>
+			<artifactId>jsp-api</artifactId>
+		</dependency>
+		<!--begin database driver -->
+		<dependency>
+			<groupId>com.oracle</groupId>
+			<artifactId>ojdbc6</artifactId>
+		</dependency>
+		<!-- begin mybatis -->
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-spring</artifactId>
+			<version>1.1.1</version>
+		</dependency>
+		<dependency>
+			<groupId>org.mybatis</groupId>
+			<artifactId>mybatis-oscache</artifactId>
+			<version>1.0.0</version>
+		</dependency>
+		<!-- freemarker -->
+		<dependency>
+			<groupId>org.freemarker</groupId>
+			<artifactId>freemarker</artifactId>
+			<version>${freemarker.version}</version>
+		</dependency>
+		<!-- jstl -->
+		<dependency>
+			<groupId>jstl</groupId>
+			<artifactId>jstl</artifactId>
+			<version>${jstl.version}</version>
+			<type>jar</type>
+		</dependency>
+		<dependency>
+			<groupId>taglibs</groupId>
+			<artifactId>standard</artifactId>
+			<version>1.1.2</version>
+		</dependency>
+		<!-- gson -->
+		<dependency>
+			<groupId>com.google.code.gson</groupId>
+			<artifactId>gson</artifactId>
+		</dependency>
+		<!-- poi -->
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-excelant</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>org.apache.poi</groupId>
+			<artifactId>poi-examples</artifactId>
+		</dependency>
+		<!-- commons -->
+		<dependency>
+			<groupId>commons-lang</groupId>
+			<artifactId>commons-lang</artifactId>
+		</dependency>
+		<dependency>
+			<groupId>commons-fileupload</groupId>
+			<artifactId>commons-fileupload</artifactId>
+			<version>${commons-fileupload.version}</version>
+		</dependency>
+		<!-- <dependency> <groupId>commons-io</groupId> <artifactId>commons-io</artifactId> 
+			<version>${commons-io.version}</version> </dependency> <dependency> <groupId>commons-validator</groupId> 
+			<artifactId>commons-validator</artifactId> <version>${commons-validator.version}</version> 
+			</dependency> <dependency> <groupId>commons-collections</groupId> <artifactId>commons-collections</artifactId> 
+			<version>${commons-collections.version}</version> </dependency> -->
+		<dependency>
+			<groupId>commons-dbcp</groupId>
+			<artifactId>commons-dbcp</artifactId>
+			<version>${commons-dbcp.version}</version>
+		</dependency>
+
+		<!-- show sql on std -->
+		<dependency>
+			<groupId>net.sf.log4jdbc</groupId>
+			<artifactId>log4jdbc4</artifactId>
+			<version>${log4jdbc4.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-core-asl</artifactId>
+			<version>${codehaus.jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.codehaus.jackson</groupId>
+			<artifactId>jackson-mapper-asl</artifactId>
+			<version>${codehaus.jackson.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.thoughtworks.xstream</groupId>
+			<artifactId>xstream</artifactId>
+			<version>${xstream.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>com.allinpay.its</groupId>
+			<artifactId>framework-cache</artifactId>
+			<version>1.0.1</version>
+		</dependency>
+	</dependencies>
+
+	<build>
+		<finalName>framework-boss</finalName>
+	</build>
+
+</project>
